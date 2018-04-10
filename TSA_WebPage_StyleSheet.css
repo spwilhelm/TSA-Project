@@ -1,0 +1,117 @@
+body{background-color: #000000;}
+.title{
+	color: #ffffff;
+	width: 75%;
+	height: 75px;
+	margin: auto;
+	clear: both;
+	padding: 10px;
+	text-shadow: 0 0 5px #e11c1c;
+	text-align: center;
+}
+/*This is the class for the nav section, mostly. Put this before the article section and use this for the Nav element.*/
+.sec{
+	width: 1250px;
+	min-height: 800px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+/*This is the class for the article section. The section this is put into is used for the article and the header of said article.*/
+.asec{
+	width: 800px;
+	min-height: 575px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background-color: #000000;
+}
+/*This is the class used for the header above the article. Make a header element and put this class within it.*/
+.arthead{
+	color: #ffffff;
+	width: 500px;
+	height: 75px;
+	margin: auto;
+	padding: 10px;
+	text-shadow: 0 0 5px #e11c1c;
+	text-align: center;
+	line-height: 75px;
+	float: center;
+	font-size: 20pt;
+}
+nav{
+	width: 180px;
+	height: 200px;
+	float: left;
+	background-color: #515151;
+	color: #cdcdcd;
+	border-radius: 6px;
+	box-shadow: 0 0 100px #e11c1c;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #515151;
+	margin: auto;
+}
+article{
+	width: 700px;
+	min-height: 500px;
+	background-color: #515151;
+	border-radius:20px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+    box-shadow: 0 0 100px #e11c1c;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #515151;
+	color: #ffffff;
+}
+p{
+	font-size: 15pt; 
+	color:#f1f1f1;
+}
+h2{
+	width: 50px;
+	clear: both;
+	color: #ffffff;
+	margin: auto;
+	font-size: 25pt;
+	text-align: center;
+}
+footer{
+	height: 30px;
+	width: 1000px;
+	clear: both;
+	margin: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #f1f1f1;
+	color: #f1f1f1;
+	line-height: 30px;
+	text-align: center;
+}
+img{
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e11c1c;
+	border-radius: 5px;
+	margin: 10px;
+	width: 45%;
+	height: 50%;
+}
+a{
+	color: #e11c1c; 
+	text-decoration: none;
+}
+a:hover{
+	color: #e11c1c; 
+	text-decoration: none; 
+	text-shadow: 0 0 4px #ffd6f3;
+}
+ul{clear:both; margin: auto; margin-top: 25px;}
+li{font-size:15pt}
